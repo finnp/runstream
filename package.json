@@ -1,0 +1,35 @@
+{
+  "name": "runstream",
+  "version": "1.0.0",
+  "description": "Run streaming modules from the CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "runstream": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finnp/runstream.git"
+  },
+  "keywords": [
+    "cli",
+    "streams",
+    "ndjson"
+  ],
+  "author": "Finn Pauls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finnp/runstream/issues"
+  },
+  "homepage": "https://github.com/finnp/runstream",
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "ndjson": "^1.2.3",
+    "pumpify": "^1.3.3"
+  },
+  "devDependencies": {
+    "through2": "^0.6.3"
+  }
+}
